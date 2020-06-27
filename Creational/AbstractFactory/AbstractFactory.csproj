@@ -5,4 +5,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Factory\" />
+    <Folder Include="Product\" />
+    <Folder Include="Factory\Interface\" />
+    <Folder Include="Product\Interface\" />
+    <Folder Include="Product\Implementation\" />
+    <Folder Include="Factory\Implementation\" />
+  </ItemGroup>
 </Project>
