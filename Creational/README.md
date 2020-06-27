@@ -1,3 +1,3 @@
 # Creational Patterns
 
-![Creational Patterns](criational-patterns.png)
+![Creational Patterns](creational-patterns.png)
