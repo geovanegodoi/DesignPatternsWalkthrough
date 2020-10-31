@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 using Facade.CrossCutting.Implementation;
 using Facade.Domain;
 using Facade.Service.Implementation;
@@ -12,12 +13,12 @@ namespace Facade
     {
         static void Main(string[] args)
         {
-            var key = string.Empty;
-            while (key != "exit")
+            var readkey = string.Empty;
+            while (readkey != "exit")
             {
                 ShowMenu();
-                key = ReadLine();
-                if (key == "1")
+                readkey = ReadLine();
+                if (readkey == "1")
                 {
                     var paymentService = BuildService();
                     RunApplication(paymentService);
